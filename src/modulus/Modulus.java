@@ -27,7 +27,7 @@ public class Modulus {
         
         min = (int) (sec / SEC_PER_MIN);
         hour = min / MIN_PER_HOUR;
-        remainder = min /MIN_PER_HOUR;
+        remainder = min % IN_PER_HOUR;
         System.out.printf("%f sec = %f hour, %f min\n",
         		sec, hour, remainder);
         
