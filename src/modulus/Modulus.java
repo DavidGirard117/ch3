@@ -2,7 +2,7 @@ package modulus;
 import java.util.Scanner;
 
 /**
- * Converts centimeters to feet and inches.
+ * Converts seconds to hours and minutes.
  */
 public class Modulus {
 
