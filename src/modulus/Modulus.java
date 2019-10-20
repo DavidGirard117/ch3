@@ -1,3 +1,11 @@
+//Header
+//Program name: chapter 3 exercise 3
+//Author: David Girard
+//Class: cs 160 fall 2019
+//Date: 10/22/19
+//Description: Convert seconds into hours and minutes
+	//with remainder in seconds
+
 package modulus;
 import java.util.Scanner;
 
