@@ -12,18 +12,22 @@ public class Converter {
 	public static void main(String[] args) {
 		double fahrenheit;
 		int celsius;
-		final double FAHRENHEIT_PER_CELSIUS = 9.0/5.0 + 32;
 		Scanner in = new Scanner(System.in);
 		
 		//prompt user to get the value
-		System.out.print("What's the temperature in fahrenheit? 23 ");
+		System.out.print("What's the temperature in fahrenheit? ");
 		fahrenheit = in.nextDouble();
 		
+		
 		//convert and output the result
-		celsius = (int) (fahrenheit * FAHRENHEIT_PER_CELSIUS);
-		System.out.printf("%d c =%.1f f", celsius, fahrenheit);
+		celsius = (int) (fahrenheit);
+		fahrenheit = celsius * (9.0/5.0) +32;
+		System.out.printf("%d c = %.1f f", celsius, fahrenheit);
+		in.close();
 	}
 
 }
-/* Footer
+/* footer
+ * What's the temperature in fahrenheit? 0
+ *0 c = 32.0 f
  */
